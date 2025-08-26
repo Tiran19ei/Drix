@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drix Shop</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(-45deg, #000000, #001f3f, #000000, #003366);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  color: #00aaff;
+}
+
+@keyframes gradientBG {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 60px;
+  height: auto;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+p {
+  max-width: 600px;
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-size: 1.2em;
+  color: white;
+  background: linear-gradient(90deg, #007bff, #00aaff);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+</style>
+</head>
+<body>
+
+<img src="https://cdn.discordapp.com/attachments/1341553056927453234/1409677469426122943/1000384843-removebg-preview.png"
+     class="logo" alt="Drix Shop Logo">
+
+<h1>Drix Shop</h1>
+<h2>כי ההצלחה מתחילה בבוט הנכון.</h2>
+<p>ברוך הבא לאתר של Drix Shop כאן תוכלו למצוא פריטים שאנחנו מציעים ופאנל לניהול החבילה שלכם.</p>
+
+<!-- קישור חדש שמוביל ל-home.html -->
+<a href="./home.html" class="btn" role="button">לחץ כאן להתחלה</a>
+
+</body>
+</html>
